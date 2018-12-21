@@ -1,0 +1,168 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+}
+
+.social {
+	display: flex;
+	justify-content: flex-end;
+	 background-color: #008cba;
+	
+}
+
+span {
+color:white;
+float: right;
+align-items: center;
+padding: 15px;
+}
+.navi {
+	display: flex;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #008cba;
+  width: 100%;
+  padding-left: 15px;
+}
+
+input {
+	height: 33px;
+}
+.paragraphe a {
+	color: white;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.topnav a:not(:first-child) {
+	float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#recherche {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px 20px 0px
+}
+.logo3 {
+	margin-right: 50px;
+}
+.trait {
+	margin: 0px 20px 0px 20px;
+}
+.search-container {
+	display: flex;
+
+	align-items: center;
+}
+
+.fond {
+	background-image: url('img/bluepaper1.jpg');
+	padding: 20px;
+}
+
+h5 {
+	text-align: center;
+}
+
+.titre1 {
+	display: flex;
+	justify-content: center;
+}
+.tit {
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+
+.lignedroit {
+	background: url('img/petittrait.png') repeat-x;
+	height: 40px;
+
+}
+
+.animationimg {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.carousel-item {
+	flex-direction: row;
+}
+.carousel-item img {
+	width: 31%;
+	height: 100%;
+}
+ #carouselExampleIndicators {
+ 	padding-left: 50px;
+ }
+ol.carousel-indicators li {
+	height: 10px;
+	width: 10px;
+ 	border-radius: 50px;
+}
+
+
+.fin {
+	height: 80px;
+	background: #008cba;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ligneimage img {
+	width: 70px;
+	height: 70px;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {
+  	display: none;}
+ 
+  .topnav a.icon {
+    float: right;
+    display: inline-block;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
